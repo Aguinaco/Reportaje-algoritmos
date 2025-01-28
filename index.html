@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Libertad de Expresión vs. Algoritmos</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Carga de librerías externas -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+</head>
+<body>
+  <header id="inicio">
+    <canvas id="fondo-binario"></canvas>
+    <h1>¿Quién controla lo que decimos en redes?</h1>
+    <nav>
+      <a href="#introduccion">Introducción</a>
+      <a href="#argumentos">Argumentos</a>
+      <a href="#graficos">Gráficos</a>
+      <a href="#conclusion">Conclusión</a>
+    </nav>
+  </header>
+
+  <section id="introduccion" class="seccion">
+    <h2>El dilema de la era digital</h2>
+    <p>Las redes sociales son la plaza pública del siglo XXI, pero están gobernadas por algoritmos opacos. ¿Protegen o silencian nuestra libertad de expresión?</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ENLhQk0t6Jk" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <section id="argumentos" class="seccion">
+    <h2>Argumentos a favor y en contra</h2>
+    <div class="argumento">
+      <h3>¿Censura o protección?</h3>
+      <p>Los algoritmos pueden silenciar voces importantes, como en el caso de activistas en Myanmar. Pero también pueden proteger a los usuarios de desinformación.</p>
+    </div>
+    <div class="argumento">
+      <h3>Innovación vs. Control</h3>
+      <p>¿Debemos regular las redes sociales para garantizar transparencia, o esto frenará la innovación tecnológica?</p>
+    </div>
+  </section>
+
+  <section id="graficos" class="seccion">
+    <h2>Datos clave</h2>
+    <canvas id="miGrafico"></canvas>
+  </section>
+
+  <section id="conclusion" class="seccion">
+    <h2>Conclusión: El equilibrio pendiente</h2>
+    <p>La regulación de algoritmos no es un tema de blanco o negro. Debemos encontrar un equilibrio entre libertad y responsabilidad.</p>
+  </section>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
